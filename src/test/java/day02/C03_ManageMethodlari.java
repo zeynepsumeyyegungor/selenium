@@ -22,7 +22,7 @@ public class C03_ManageMethodlari {
         System.out.println("Sayfanin Yeni Konumu = " +driver.manage().window().getPosition());
         System.out.println("Sayfanin Yeni Boyutu = " +driver.manage().window().getSize());
         //Sayfayi kapatin
-        Thread.sleep(3000);
+        Thread.sleep(2000);
         driver.close();
     }
 }

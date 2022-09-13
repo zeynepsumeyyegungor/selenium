@@ -13,6 +13,18 @@ public class Z01 {/*
     *  driver.mange().window().getPosition();          --> Browser'in koordinatlarini verir.
     *  driver.manage().window().getSize();             --> Brovser'in olculerini verir
     *  driver.manage().window().setPosition(new x:80,y:0));  --> Browser'i istenen koordinata tasir
+    *  driver.manage().timeouts().impkicitlyWait(Duration.ofSeconds(10));   --> Istenen sayfa acilana kadar max. beklenen sureyi gosterir.
+
+
+    --  bir web elementini tanimlamak icin 8 tane selenium locator vardır
+    1- id
+    2- name
+    3- className
+    4- tagName
+    5- linkText
+    6- partialLinkTexr
+    7- xpath -> xpath yazmanin birden fazla yolu vardir
+    8- cssSelector -> css yazmanin birden fazla yolu vardir
 
 
 */
