@@ -39,9 +39,10 @@ public class Alistirma03 {
         addList.click();
 
         //Listeme gidip bak;
-        driver.findElement(By.xpath("//*[@id=\"my-lists-tab\"]/a/div")).click();
-        driver.findElement(By.xpath("//*[@id=\"huc-view-your-list-button\"]/span/a")).click();
-
+        //driver.findElement(By.xpath("//*[@id='add-to-wishlist-button-submit']")).click();
+        //driver.findElement(By.xpath("//*[@href='https://www.amazon.com/hz/wishlist/ls/1OTP8452PHXOE?ref_=wl_dp_view_your_list']")).click();
+        driver.findElement(By.xpath("//*[text()='Shopping List']")).click();
+        Thread.sleep(2000);
         //Sayfayi Kapat.
         driver.close();
         //Tum sekmeleri kapat.
